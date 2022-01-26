@@ -1,5 +1,7 @@
 <template>
-  <div>La mia prima app con Vue CLI!</div>
+  <div class="top">
+    <h1>La mia prima app con Vue CLI!</h1>
+  </div>
 </template>
 
 <script>
@@ -8,5 +10,12 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style scoped>
+.top {
+  padding: 15px 50px;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  backdrop-filter: blur(7px);
+  color: #fff;
+}
+</style>
